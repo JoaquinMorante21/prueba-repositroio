@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    background: #fff;
+    font-family: "Roboto";
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 20px;
+}
+
+.formulario h1 {
+    font-size: 32px;
+    color: rgb(11, 37, 185);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.formulario > div {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.formulario input [type="radio"],
+.formulario input [type="checkbox"]
+.formulario input [type="submit"]
+{
+    display: none;
+}
